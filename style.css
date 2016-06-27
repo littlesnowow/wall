@@ -1,0 +1,100 @@
+/**********通用**********/
+*{margin: 0;padding: 0;font: 12px "Hiragino Sans GB";color: #fff;}
+ul{list-style: none;}
+a{text-decoration: none;}
+/***********wrap*****************/
+#wrap{
+width: 100%;
+height: 930px;
+background: -webkit-linear-gradient(top,#e2e1dd,#e2e1dd);
+background:-moz-linear-gradient(top,#e2e1dd,#e2e1dd);
+background:-ms-linear-gradient(top,#e2e1dd,#e2e1dd);
+background:-o-linear-gradient(top,#e2e1dd,#e2e1dd);
+margin:0px auto;
+}
+/************左侧导航栏开始**************/
+.aside{
+width: 20%;
+height: 915px;
+background: -webkit-linear-gradient(top,#0099e5,#e2e1dd);
+background:-moz-linear-gradient(top,#0099e5,#e2e1dd);
+background－color:#0099e5;
+background:-o-linear-gradient(top,#0099e5,#e2e1dd);
+float: left;
+position: relative;
+}
+/*******logo部分******************/
+.logo span{
+font-size: 60px;
+display: block;
+text-align: center;
+}
+.logo p{
+font-size: 18px;
+color: #e6e6e6;
+margin-top: 5px;
+text-align: center;
+}
+.footer p{
+position: absolute;
+width: 100%;
+bottom: 135px;
+text-align: left;
+text-indent: 2em;
+}
+/***********aside部分结束***********/
+/**********main部分开始**************/
+#main{
+width: 75%;
+height: 900px;
+float: left;
+margin:15px 0px 15px 3.5%;
+}
+#main ul li{
+width: 18%;
+height: 220px;
+float: left;
+margin: 2px 8px;
+background-color: #fff;
+box-shadow: 5px 5px 5px #e2e1dd;
+-o-box-shadow:5px 5px 5px #e2e1dd;
+-moz-box-shadow: 5px 5px 5px #e2e1dd;
+-webkit-box-shadow:5px 5px 5px #e2e1dd;
+}
+#main ul li a:link,#main ul li a:visited{
+display: block;
+height: 200px;
+padding-bottom: 22px;
+position: relative;
+overflow: hidden;
+}
+#main img{
+width: 100%;
+height: 100%;
+}
+.intro{
+height: 100%;
+width: 100%;
+background-color: #0099e5;
+opacity:0.9;
+position: absolute;
+top: 0;
+display: none;
+cursor: pointer;
+cursor: hand;
+}
+.intro p{
+position: absolute;
+font-size: 16px;
+text-indent: 2em;
+top: 45%;
+}
+.intro span{
+position: relative;
+top: 30%;
+display: block;
+text-align: center;
+font-size: 18px;
+border-bottom: 2px solid #fff;
+}
+/***********main 结束***************/
